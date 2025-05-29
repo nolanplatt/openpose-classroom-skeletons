@@ -1,0 +1,2 @@
+# openpose-classroom-skeletons
+
