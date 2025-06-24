@@ -39,6 +39,7 @@ def process_images(input_dir="input", output_dir="output", model_folder="models"
     params["scale_number"] = 4         # multi-scale processing for better accuracy
     params["scale_gap"] = 0.25          # scale gap
     params["maximize_positives"] = True # 
+    params["disable_blending"] = True  # render only skeleton on black background
 
     # start OP
     opWrapper = op.WrapperPython()
