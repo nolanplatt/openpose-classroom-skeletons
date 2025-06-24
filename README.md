@@ -2,7 +2,7 @@
 
 This project iterates through classroom images and creates skeletonizations via OpenPose. It extracts human skeleton keypoints, and saves the results both as images and as JSON keypoints. It also includes `normalize.py` to standardize all input image names for organization, as well as `test.py` to verify your OpenPose Python installation. Installing OpenPose locally can be quite challenging, so if you run into issues installing it as well as the Python library, please reach out to me at <nolanplatt@vt.edu>. 
 
-This project leverages [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) from Carnegie Mellon University's Perceptual Computing Laboratory.
+Relies on [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) from Carnegie Mellon University's Perceptual Computing Laboratory.
 
 ## Features
 
